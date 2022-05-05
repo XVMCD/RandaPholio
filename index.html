@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html Lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Responsive Portfolio Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <section class="banner" id="sec">
+      <header>
+        <a href="#" class="logo">logo</a>
+        <div id="toggle" onclick="toggle()"></div>
+        </header>
+        <div class="content">
+          <h2>Hello World,<br>I'm <span>Brian Randa</span></h2>
+          <p>Creative | Producer | Pro-Drummer/Musician | Multi Instrumentalist | Drum Tutor | Arranger | Music/Band Director | Clinician
+
+            Working with the most elite & recognized Artistes/Bands:
+            
+            Tetu Shani | Dela | Kanjii |Kaima Mwiti | Eric Wainaina | Nyashinski | PHY | Ma3 band | Khaligraph Jones | Muthoni Drummer Q | Benjamin Webi | Ali Kiba | Lady Jay Dee | Adawnage | Zidi the band | Chris Adwar & The Villagers band | Juliani | Fena | Threat Band | Eddie Grey | Aaron Rimbui | Tim Rimbui | Keke Phoolo (S.A) | Joseph Hellon | Andrew Ngatia-Taraji | Headnokaz (UK) & many more</p>
+          <a href="Know more"></a>
+          <ul class="sci">
+          <li><a href="#"><img src="facebook.png" alt=""></a></li>
+          <li><a href="#"><img src="twitter.png" alt=""></a></li>
+          <li><a href="#"><img src="linkedin.png" alt=""></a></li>
+      </section>
+      <div id="navigation">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        </div>
+        <script type="text/javascript">
+          function toggle(){
+            var sec = document.getElementById('sec');
+            var nav = document.getElementById('navigation');
+            sec.classList.toggle('active')
+            nav.classList.toggle('active')
+          }
+          </script>
+  </body>
+</html>
